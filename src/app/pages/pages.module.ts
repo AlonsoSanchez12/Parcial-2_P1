@@ -11,6 +11,7 @@ import { ComponentsModule } from '../components/components.module';
 import { AccountSettingsComponent } from './account-settings/account-settings.component';
 import { PromesasComponent } from './promesas/promesas.component';
 import { RxjsComponent } from './rxjs/rxjs.component';
+import { AppRoutingModule } from '../app-routing.module';
 
 
 
@@ -37,6 +38,7 @@ import { RxjsComponent } from './rxjs/rxjs.component';
     RouterModule,
     FormsModule,
     ComponentsModule,
+    AppRoutingModule
   ]
 })
 export class PagesModule { }

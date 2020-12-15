@@ -4,6 +4,8 @@ import { SidebarComponent } from './sidebar/sidebar.component';
 import { HeadbarComponent } from './headbar/headbar.component';
 import { BreadcrumbsComponent } from './breadcrumbs/breadcrumbs.component';
 import { RouterModule } from '@angular/router';
+import { PagesRoutingModule } from '../pages/pages.routing';
+
 
 
 
@@ -20,7 +22,7 @@ import { RouterModule } from '@angular/router';
     BreadcrumbsComponent,
   ],
   imports: [
-    CommonModule, RouterModule
+    CommonModule, RouterModule, PagesRoutingModule
   ]
 })
 export class SharedModule { }
